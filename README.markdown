@@ -6,8 +6,8 @@ You can clone or copy this repo as a starting point, if desired.
 
 ## Contents
 
-It contains:
+It contains currently:
 
- - an [`example-article.md`](example-article.md) to show the basic structure of an article.
-
+ - an example [`article.md`](example-article.md) to show the basic structure of an article
+ - an example [`index.md`](blog/index.md) to show how to add a article listing page
 
