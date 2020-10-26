@@ -16,10 +16,11 @@ This is showing an example of how generate a article listing page. Any file name
 
 The blade-rendering function of gets the following parameters passed:
 
- - the complete frontmatter (merged from the `defaults` in [`config/blog.php`](https://github.com/spekulatius/laravel-commonmark-blog/blob/main/config/blog.php) and this pages frontmatter,
- - the commonmark-rendered content (this text) as `content`,
- - the `current_page` for the number of the page, and
- - the `total_pages` as the total number of pages.
+ - the complete frontmatter (merged from the `defaults` in [`config/blog.php`](https://github.com/spekulatius/laravel-commonmark-blog/blob/main/config/blog.php) and this page frontmatter,
+ - the CommonMark-rendered content (this text) as `content`,
+ - the `current_page` for the number of the page,
+ - the `total_pages` as the total number of pages, and
+ - the `items` of the current page.
 
 With this information your Blade-file should be able to render a complete listing page with pagination.
 
