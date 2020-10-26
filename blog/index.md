@@ -1,6 +1,4 @@
 ---
-type: list
-
 title: "Example List"
 description: "This is the example of an article list"
 keywords:
@@ -15,7 +13,7 @@ modified: "2020-10-24 12:34:56"
 
 # List
 
-This is showing an example of how generate a article listing page.
+This is showing an example of how generate a article listing page. Any file named `index.md` will be converted to a list page automatically.
 
 The blade-rendering function of gets the following parameters passed:
 
