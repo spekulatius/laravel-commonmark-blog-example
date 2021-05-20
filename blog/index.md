@@ -41,4 +41,4 @@ Which would be served by most web-servers as the following:
  - `domain.com/blog/2`
  - `domain.com/blog/3`
 
-**Note:** The first file (here `blog/1/index.htm`) will be a copy of the `blog/index.htm` file. Therefore it will automatically contain a canoncial URL to the variation without page number (`domain.com/blog`).
+**Note:** The first file (here `blog/1/index.htm`) will be a copy of the `blog/index.htm` file. Therefore it will automatically contain a canonical URL to the variation without page number (`domain.com/blog`).
